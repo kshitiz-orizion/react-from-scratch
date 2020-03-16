@@ -9,7 +9,7 @@ const Home=(props)=>{
     return(
         <React.Fragment>
             <div>{count}</div>
-            <button onClick={()=>increament()}>{props.value}</button>
+            <button className="homeDiv" onClick={()=>increament()}>{props.value}</button>
         </React.Fragment>
 
     )

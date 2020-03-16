@@ -16,7 +16,7 @@ class Test extends React.Component{
         return(
             <React.Fragment>
             <div>Count Test:{this.state.count}</div>
-            <button onClick={()=>this.setCount()}>{this.props.value}</button>
+            <button className="testDiv" onClick={()=>this.setCount()}>{this.props.value}</button>
             </React.Fragment>
         )
     }
